@@ -20,19 +20,14 @@ jobs:
  
       # the working dir is github repo that you need to fork to become owner.
  
-    working_directory: https://github.com/GulamTest/CircleCI_.git
+    working_directory: ~/nightwatch-saple-for-circleci
  
     steps:
  
       - checkout
       
-      - run: echo 'export LT_USERNAME="gulama"' >> $BASH_ENV
+     
  
-      - run: echo 'export LT_ACCESS_KEY="dvzmGKOrkoCTa9WLftEKObUX2S602F8FffTFApMstkLdN7BCfw"' >> $BASH_EN
-  
- 
-            - v1-dependencies-{{ checksum "package.json" }}
-             # fallback to using the latest cache if no exact match is found
       - run: npm install
  
       # run tests!

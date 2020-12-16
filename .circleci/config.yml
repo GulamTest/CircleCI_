@@ -29,12 +29,7 @@ jobs:
       - run: echo 'export LT_USERNAME="gulama"' >> $BASH_ENV
  
       - run: echo 'export LT_ACCESS_KEY="dvzmGKOrkoCTa9WLftEKObUX2S602F8FffTFApMstkLdN7BCfw"' >> $BASH_EN
-  
- 
-          
- 
-          
-      
+
  
       # run tests!
  

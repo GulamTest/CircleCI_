@@ -61,6 +61,6 @@ jobs:
       - run: npm install
  
       # run tests!
-      - run: set LT_USERNAME= gulama
-      - run:set LT_ACCESS_KEY= dvzmGKOrkoCTa9WLftEKObUX2S602F8FffTFApMstkLdN7BCfw
+      - run: export LT_USERNAME= gulama
+      - run: export LT_ACCESS_KEY= dvzmGKOrkoCTa9WLftEKObUX2S602F8FffTFApMstkLdN7BCfw
       - run: testcafe "lambdatest:Internet Explorer@11.0:Windows 10" "test.js"

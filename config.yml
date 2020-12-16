@@ -20,7 +20,7 @@ jobs:
  
       # the working dir is github repo that you need to fork to become owner.
  
-    working_directory: gh repo clone GulamTest/CircleCI_
+    working_directory: git@github.com:GulamTest/CircleCI_.git
  
     steps:
  

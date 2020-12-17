@@ -19,19 +19,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
  
       # the working dir is github repo that you need to fork to become owner.
- keys:SHA256:dy3OF0/v3TzV2BvSoWc/6mhEjIM9eFMAgJQgFzcpMMU
-   
- 
-    steps:
- 
-      - checkout
-      
-      - run: echo 'export LT_USERNAME="gulama"' >> $BASH_ENV
- 
-      - run: echo 'export LT_ACCESS_KEY="dvzmGKOrkoCTa9WLftEKObUX2S602F8FffTFApMstkLdN7BCfw"' >> $BASH_EN
- 
-      - run: npm install
- 
+
       # run tests!
  
       - run: set LT_USERNAME= gulama
